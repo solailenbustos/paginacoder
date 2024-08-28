@@ -1,0 +1,68 @@
+/* Fuente Playwrite AR para títulos principales */
+.playwrite-ar-title {
+    font-family: "Playwrite AR", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300; /* Elimina la barra diagonal adicional */
+    font-style: normal;
+}
+
+/* Fuente Edu AU VIC WA NT Hand para subtítulos */
+.edu-au-vic-wa-nt-hand-subtitle {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500; /* Elimina la barra diagonal adicional */
+    font-style: normal;
+}
+
+/* Fuente Cedarville Cursive para elementos destacados */
+.cedarville-cursive-highlight {
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url('Imagenes/_DSC2049 clara.jpg'); /* Corrige el valor para incluir url() */
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 100vh; /* Asegura que el fondo cubra el 100% del alto de la ventana */
+    width: 100vw; /* Asegura que el fondo cubra el 100% del ancho de la ventana */
+    overflow-x: hidden; /* Evita el desbordamiento horizontal */
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0; /* Añadido para evitar margen adicional */
+    padding: 0; /* Añadido para evitar relleno adicional */
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+section {
+    padding: 20px;
+}
+
+h1 {
+    color: #5d5c61;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
